@@ -1,0 +1,6 @@
+hash: 30f72b4a9d7abf5f8135015c337780491d20330d1274c1787adfb631b55b03bb
+updated: 2016-11-09T18:56:08.657836813+05:30
+imports:
+- name: github.com/yadavparmatma/login-contractor
+  version: 5752d7a029f103a252c9181dccf19f1cb9f1a20d
+testImports: []

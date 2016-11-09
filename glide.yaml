@@ -1,0 +1,4 @@
+package: yadavparmatma/login-client
+import:
+- package: github.com/yadavparmatma/login-contractor
+  version: ^1.0.0
