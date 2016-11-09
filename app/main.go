@@ -2,8 +2,6 @@ package main
 
 import (
 	"log"
-	"os"
-
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
@@ -11,7 +9,7 @@ import (
 )
 
 const (
-	address     = "localhost:5005"
+	address     = "http://127.0.0.1:5005/"
 	defaultName = "Parmatma"
 )
 
@@ -22,7 +20,7 @@ func main() {
 	}
 	defer conn.Close()
 
-	client := sdk.NewGreeterClient(conn)
+	client := conn.NewUserClient(conn)
 
 	name := defaultName
 
