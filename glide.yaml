@@ -1,5 +1,9 @@
 package: yadavparmatma/login-client
 import:
-- package: github.com/yadavparmatma/login-contractor
-  version: ^1.0.0
+- package: golang.org/x/net
+  subpackages:
+  - context
 - package: google.golang.org/grpc
+- package: github.com/LoginGRPC/login-contractor
+  version: ^v1.0.0
+  vcs: git

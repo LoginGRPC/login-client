@@ -5,7 +5,7 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	sdk "github.com/yadavparmatma/login-contractor"
+	sdk "github.com/LoginGRPC/login-contractor"
 )
 
 const (
