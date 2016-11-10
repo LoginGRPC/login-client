@@ -1,12 +1,12 @@
 hash: 7be3d5df8183b1b19766f0189e46d48312d58d7dbc39aada9e21571cdb293590
-updated: 2016-11-09T22:40:25.650371358+05:30
+updated: 2016-11-10T11:19:08.069220354+05:30
 imports:
 - name: github.com/golang/protobuf
   version: 4bd1920723d7b7c925de087aa32e2187708897f7
   subpackages:
   - proto
 - name: github.com/LoginGRPC/login-contractor
-  version: dcb6a6acc8993c5a65c7884b68e7621a941f48c8
+  version: 34b3ce99e039accd1d1aff459563e1a5b443ffa5
   vcs: git
 - name: golang.org/x/net
   version: 40d3034e575b6eafbca34e64224da61de35ae04c

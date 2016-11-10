@@ -20,7 +20,7 @@ func main() {
 	}
 	defer conn.Close()
 
-	client := conn.NewUserClient(conn)
+	client := *sdk.NewUserServiceClient(conn)
 
 	name := defaultName
 
@@ -29,5 +29,6 @@ func main() {
 	if err != nil {
 		log.Fatalf("could not greet: %v", err)
 	}
+
 	log.Printf("Greeting: %s", response.Message)
 }
